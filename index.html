@@ -2068,18 +2068,18 @@ html, body {
   ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{};ttq._i[e]=[];ttq._i[e]._u=i;ttq._t=ttq._t||{};ttq._t[e]=+new Date;ttq._o=ttq._o||{};ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript";o.async=!0;o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
 
   // ── Pixel ID ──
-  ttq.load('D8E3B2RC77UB4KU2AGNG'); // استبدل بـ Pixel ID الخاص بك لو اختلف
+  ttq.load('D8G2BRRC77U3N4JA8PSG'); // Pixel ID
   ttq.page();
 
   // ── Events API (Server-Side Token) ──
-  window._tt_access_token = '1104775d661c3439395295c1019b6bbcbb615f31';
+  window._tt_access_token = '3536f7c2dc12b018990668e77889ab990e7e1965';
 
   // Helper: send server-side event via Events API
   async function ttSendEvent(event_name, properties) {
     try {
       const payload = {
         event_source: "web",
-        event_source_id: "D8E3B2RC77UB4KU2AGNG",
+        event_source_id: "D8G2BRRC77U3N4JA8PSG",
         data: [{
           event: event_name,
           event_time: Math.floor(Date.now() / 1000),
